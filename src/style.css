@@ -1,0 +1,120 @@
+* {
+    box-sizing: border;
+}
+
+body {
+    margin: 0;
+}
+
+nav{
+    height: 70px;
+    display: flex;
+    /* background-color: blue; */
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
+}
+
+ .heroes-section {
+    display: flex;
+    justify-content: center; 
+    /*for not picture */
+     flex-direction:column;
+} 
+
+.heroes {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    position: relative;
+    margin-top:40px;
+
+}
+
+.hero-grid{
+    display: block;
+}
+
+ .hero1 {
+    position: absolute;
+    top: 31.9%;
+    left: 18%;
+    border-radius: 15px;
+}
+
+.hero2 {
+    position: absolute;
+    top: 4.32%;
+    left: 30.7%;
+    border-radius: 15px;
+}
+
+.hero3 {
+    position: absolute;
+    top: 40%;
+    left: 30.7%;
+    border-radius: 15px;
+}
+
+.hero4 {
+    position: absolute;
+    top: 15%;
+    left: 43.27%;
+    border-radius: 15px;
+}
+
+.hero5 {
+    position: absolute;
+    top: 67.6%;
+    left: 43.27%;
+    border-radius: 15px;
+}
+
+.hero6 {
+    position: absolute;
+    top: 1%;
+    left: 56%;
+    border-radius: 15px;
+}
+
+.hero7 {
+    position: absolute;
+    top: 53%;
+    left: 56%;
+    border-radius: 15px;
+}
+
+.hero8 {
+    position: absolute;
+    top: 10%;
+    left: 68.8%;
+    border-radius: 15px;
+}
+
+.hero9 {
+    position: absolute;
+    top: 62%;
+    left: 68.8%;
+    border-radius: 15px;
+} 
+
+
+.hero1:hover, .hero2:hover, .hero3:hover, .hero4:hover, .hero5:hover, .hero6:hover, .hero7:hover, .hero8:hover, .hero9:hover {
+    transform: scale(1.2);
+    transition: transform;
+    transition-duration: 1s;
+    transition-property: all;
+}
+/* .col-1, .col-2, .col-3, .col-4,.col-5 {
+    width: 20%;
+    border: 1px solid black;
+}
+
+.col-1 {
+    display:flex;
+    align-items: center;
+} */
+
+/* .nav-logo {  
+    display: block; 
+    max-width: 100%;
+} */
