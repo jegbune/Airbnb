@@ -171,3 +171,58 @@ nav{
     }
     
 }
+
+
+
+
+/* -------------
+CARDS
+------------- */
+p{
+    margin: 0;
+}
+.card-container {
+    position: relative;
+    width: 176px;
+    font-size: 12px;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 9px;
+}
+.card-status {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 61px;
+    font-size: 10px;
+    padding: 4px;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.card-info {
+    margin-top: 9px;
+    width:176px;
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-container {
+    padding-block: 0px 7px;
+}
+.star {
+    width: 14px;
+}
+
+.feeds-stats {
+    opacity: 0.5;
+} 
+
+.price-container {
+    margin-top: 7px;
+}
+.price {
+    font-weight: 700;
+}

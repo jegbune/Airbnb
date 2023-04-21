@@ -25,7 +25,7 @@
 // export default App;
 
 import NavBar from "./component/navbar"
-import Heroes from "./component/Heroes"
+// import Heroes from "./component/Heroes"
 import Cards from "./component/cards"
 import "./style.css"
 
@@ -33,7 +33,7 @@ function App() {
   return(
 <div>
   <NavBar />
-  <Heroes />
+  {/* <Heroes /> */}
   <Cards />
 </div>
   )
