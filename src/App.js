@@ -26,6 +26,7 @@
 
 import NavBar from "./component/navbar"
 import Heroes from "./component/Heroes"
+import Cards from "./component/cards"
 import "./style.css"
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
 <div>
   <NavBar />
   <Heroes />
+  <Cards />
 </div>
   )
 }
