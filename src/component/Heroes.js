@@ -2,7 +2,7 @@ import React from "react"
 
 function Heroes() {
     return (
-        <section className="Hero-section">
+        <section className="hero-section">
 
         <div className="heroes">
             {/* <img src="./images/heroes/hero-grid.png"  classname= "hero-grid" alt= "Hero-grid" /> */}

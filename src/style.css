@@ -3,7 +3,8 @@
 }
 
 body {
-    margin: 0;
+    margin: 0; 
+    font-family: 'Poppins', sans-serif;
 }
 
 nav{
@@ -14,17 +15,20 @@ nav{
     box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
 }
 
- .heroes-section {
+ .hero-section {
     display: flex;
     justify-content: center; 
+    align-items: center;
     /*for not picture */
      flex-direction:column;
 } 
 
 .heroes {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 400px;
+    width: 62%;
+    height: 100%;
     position: relative;
     margin-top:40px;
 
@@ -36,64 +40,73 @@ nav{
 
  .hero1 {
     position: absolute;
-    top: 31.9%;
-    left: 18%;
+    top: 16.9%;
+    width: 16%;
+    left: 7%;
     border-radius: 15px;
 }
 
 .hero2 {
     position: absolute;
     top: 4.32%;
-    left: 30.7%;
+    width: 16%;
+    left: 24.5%;
     border-radius: 15px;
 }
 
 .hero3 {
     position: absolute;
-    top: 40%;
-    left: 30.7%;
+    top: 35%;
+    width: 16%;
+    left: 24.5%;
     border-radius: 15px;
 }
 
 .hero4 {
     position: absolute;
-    top: 15%;
-    left: 43.27%;
+    top: 10%;
+    width: 16%;
+    left: 42%;
     border-radius: 15px;
 }
 
 .hero5 {
     position: absolute;
-    top: 67.6%;
-    left: 43.27%;
+    top: 54%;
+    width: 16%;
+    left: 42%;
     border-radius: 15px;
 }
 
 .hero6 {
     position: absolute;
     top: 1%;
-    left: 56%;
+    width: 16%;
+    right: 24.5%;
     border-radius: 15px;
 }
 
 .hero7 {
     position: absolute;
-    top: 53%;
-    left: 56%;
+    top: 48%;
+    width: 16%;
+    right: 24.5%;
     border-radius: 15px;
 }
 
 .hero8 {
     position: absolute;
-    top: 10%;
-    left: 68.8%;
+    top: 8%;
+    width: 16%;
+    right: 7%;
     border-radius: 15px;
 }
 
 .hero9 {
     position: absolute;
-    top: 62%;
-    left: 68.8%;
+    top: 55%;
+    width: 16%;
+    right: 7%;
     border-radius: 15px;
 } 
 
@@ -119,3 +132,18 @@ nav{
     max-width: 100%;
 }
 
+.hero-header {
+    margin-bottom: 16px;
+}
+
+.hero-text {
+    margin-top: 0;
+}
+@media(max-width:500px) {
+    .heroes {
+        width: 100%;
+        max-width: 100%;
+        height: 200px;
+    }
+    
+}
