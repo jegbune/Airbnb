@@ -26,7 +26,8 @@
 
 import NavBar from "./component/navbar"
 // import Heroes from "./component/Heroes"
-import Cards from "./component/cards"
+// import Cards from "./component/cards"
+import Sample from "./javaScript"
 import "./style.css"
 
 function App() {
@@ -34,7 +35,8 @@ function App() {
 <div>
   <NavBar />
   {/* <Heroes /> */}
-  <Cards />
+  {/* <Cards /> */}
+  <Sample />
 </div>
   )
 }
