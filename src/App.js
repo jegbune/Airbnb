@@ -29,7 +29,8 @@
 // import Cards from "./component/cards"
 // import Sample from "./javaScript"
 import Contact from "./contact";
-import "./style.css"
+// import "./style.css"
+import "./style1.css"
 
 function App() {
   return(
@@ -38,7 +39,37 @@ function App() {
   <Heroes />
   <Cards /> */}
   {/* <Sample /> */}
-  <Contact />
+
+
+  <div className="contacts">
+  <Contact
+    img = "./images/mr-whiskerson.jpg"
+    name = "Mr. Whiskerson"
+    Number = "(212) 555-1234"
+    mail = "mr.whiskaz@catnap.meow"
+  />
+  <Contact
+    img = "./images/fluffykins.jpg"
+    name = "Fluffykins"
+    Number = "(212) 555-2345"
+    mail = "fluff@me.com"
+    />
+  <Contact
+    img = "./images/felix.jpg"
+    name = "Felix"
+    Number = "(212) 555-4567"
+    mail = "thecat@hotmail.com"
+    />
+  <Contact
+    img = "./images/pumpkin.jpg"
+    name = "Pumpkin"
+    Number = "(212) CAT KING"
+    mail = "pumpkin@scrimba.com"
+    />
+  </div>
+
+
+
 </div>
   )
 }
