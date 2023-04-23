@@ -24,19 +24,21 @@
 
 // export default App;
 
-import NavBar from "./component/navbar"
+// import NavBar from "./component/navbar"
 // import Heroes from "./component/Heroes"
 // import Cards from "./component/cards"
-import Sample from "./javaScript"
+// import Sample from "./javaScript"
+import Contact from "./contact";
 import "./style.css"
 
 function App() {
   return(
 <div>
-  <NavBar />
-  {/* <Heroes /> */}
-  {/* <Cards /> */}
-  <Sample />
+  {/* <NavBar />
+  <Heroes />
+  <Cards /> */}
+  {/* <Sample /> */}
+  <Contact />
 </div>
   )
 }
