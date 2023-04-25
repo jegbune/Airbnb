@@ -24,20 +24,37 @@
 
 // export default App;
 
-import NavBar from "./component/navbar"
+// import NavBar from "./component/navbar"
 // import Heroes from "./component/Heroes"
-import Cards from "./component/cards"
+// import Cards from "./component/cards"
 // import Sample from "./javaScript"
 // import Contact from "./contact";
 // import Joke from "./joke.js"
-import "./style.css"
+// // import "./style.css"
 // import "./style1.css"
 
 function App() {
-  return(
+
+  // const colors = ["Red", "orange", "Yellow", "Green", "Blue", "Indigo","Violet"]
+  const colors = [
+  <h3>Red</h3>,
+  <h3>Orange</h3>,
+  <h3>Yellow</h3>,
+  <h3>Green</h3>,
+  <h3>Blue</h3>,
+  <h3>Indigo</h3>,
+  <h3>Violet</h3>
+]
+//  const list = colors.map(function(item){
+//   return item
+// })
+  
+return(
 <div>
-  <NavBar />
-  {/* <Heroes /> */}
+{colors}
+{/* <h3>{list}</h3> */}
+  {/* <NavBar />
+  <Heroes />
   <Cards
   image = "image-12.png"
   rating = "5.0"
@@ -46,7 +63,7 @@ function App() {
   title = "Life lessons with Katie Zaferes"
   price = {136}
   />
-  {/* <Sample /> */}
+   <Sample /> */}
 
 
   {/* <div className="contacts">
@@ -82,7 +99,7 @@ punchline="It's hard to explain puns to kleptomaniacs because they always take t
 isPun = {true}
 upvotes = {10}
 downvotes= {2}
-comments = {[{author: "", body:"", title:""}, {...}]}
+comments = {[{author: "", body:"", title:""}]}
 />
 <Joke
 setup = "I got my daughter a fridge for her birthday."
@@ -106,9 +123,10 @@ isPun = {true}
 />
 </div> */}
 
-
 </div>
-  )
+
+)
+
 }
 
 export default App
