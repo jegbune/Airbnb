@@ -27,10 +27,11 @@
 import NavBar from "./component/navbar"
 import Heroes from "./component/Heroes"
 import Cards from "./component/cards"
-// // import "./style.css"
+import Contact from "./contact"
+import "./style.css"
 
 function App() {
-<div id="root"
+<div>
   <NavBar />
   <Heroes />
   <Cards
@@ -69,9 +70,9 @@ function App() {
     mail = "pumpkin@scrimba.com"
     />
   </div>
-
-</div>
 )
+</div>
+
 
 }
 
