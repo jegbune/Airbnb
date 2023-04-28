@@ -2,7 +2,7 @@ import React from "react"
 
 function Cards(props) {
     return (
-        
+         
         <div className="cards">
             <div className="card-container">
                 <img src={`./images/cards/${props.image}`} className="card-image" alt ="image12" />
