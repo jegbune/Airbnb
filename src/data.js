@@ -11,10 +11,10 @@ export default [
     {
         image : "wedding-photography1.png",
         rating : "5.0",
-        reviewCount : 6,
-        location : "USA",
-        title : "Life lessons with Katie Zaferes",
-        price :136,
+        reviewCount : 30,
+        location : "Online",
+        title : "Learn Wedding Photography",
+        price :125,
     },
 
     {
@@ -22,8 +22,9 @@ export default [
         rating : "5.0",
         reviewCount : 6,
         location : "USA",
-        title : "Life lessons with Katie Zaferes",
-        price :136,
-    }
-    
+        title : "Group Mountain Biking",
+        price :50,
+    },
+
+   
 ]
