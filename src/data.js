@@ -6,6 +6,7 @@ export default [
         location : "USA",
         title : "Life lessons with Katie Zaferes",
         price :136,
+        openSpots : 0
     },
 
     {
@@ -15,6 +16,7 @@ export default [
         location : "Online",
         title : "Learn Wedding Photography",
         price :125,
+        // openSpots : 0
     },
 
     {
@@ -24,6 +26,7 @@ export default [
         location : "USA",
         title : "Group Mountain Biking",
         price :50,
+        openSpots : 3
     },
 
    

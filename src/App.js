@@ -1,26 +1,31 @@
 import NavBar from "./component/navbar"
 import Heroes from "./component/Heroes"
 import Cards from "./component/cards"
-import data from "./data.js"
+import data from "./data"
 import "./style.css"
 
 function App() {
-  const cardElements = data.map(card => {
-    return <Cards 
-    image = { card.image} 
-    rating = { card.rating} 
-    reviewCount = { card.reviewCount} location = { card.location} 
-    title = { card.title} 
-    price = { card.price} 
-    openSpots = {card.openSpots }
+  
+  // image = {item.image} 
+  //     rating = { item.rating} 
+  //     reviewCount = { item.reviewCount}
+  //     location = { item.location} 
+  //     title = { item.title} 
+  //     price = { item.price} 
+  //     openSpots = {item.openSpots }
+  const card = data.map(item => {
+    return (
+    <Cards 
+      item = {item}
     />
+    )
   })
-  return(
+  return(   
 <div> 
   <NavBar />
   <Heroes /> 
   <section className="card-list">
-    {cardElements}
+    {card}
   </section>  
 
     
