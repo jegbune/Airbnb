@@ -1,0 +1,6 @@
+export default[
+    {
+        Title :"This is another Cart",
+        price : `$100`
+    }
+]
