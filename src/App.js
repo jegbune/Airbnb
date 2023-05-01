@@ -3,20 +3,20 @@ import Heroes from "./component/Heroes"
 import Cards from "./component/cards"
 import data from "./data"
 import "./style.css"
-// import Cart from "./cart"
-// import element from "./element"
+import Cart from "./cart"
+import element from "./element"
 function App() {
-  // const elementList = element.map(list => {
-  //   return(
-  //     <Cart
-  //     {...list}
-  //     // list = {list}
-  //       // title = {list.title} 
-  //       // price = {list.price}
-  //       // openSpot = {list.openSpot}
-  //     />
-  //   )
-  // })
+  const elementList = element.map(list => {
+    return(
+      <Cart
+      {...list}
+      // list = {list}
+        // title = {list.title} 
+        // price = {list.price}
+        // openSpot = {list.openSpot}
+      />
+    )
+  })
  
 
   // image = {item.image} 
@@ -46,10 +46,10 @@ function App() {
 {/* <Cart
   title= "This is another paragraph"
   /> */}
-{/* <div>
+<div>
     {elementList}
 
-</div> */}
+</div>
 
 </div>
   )

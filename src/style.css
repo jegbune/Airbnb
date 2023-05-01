@@ -189,7 +189,7 @@ p{
 .card-list {
      display: flex;
      justify-content: space-around;
-     overflow: scroll;
+     overflow: auto;
 }
 
 .card-container {
